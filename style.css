@@ -1,0 +1,1111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  border-bottom: solid 10px #0f4a8a;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Signika Negative", sans-serif;
+}
+.section-nav {
+  padding: 2rem 1rem 2rem 1rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.paytm_logo {
+  width: 18rem;
+  height: auto;
+}
+
+.nav-list {
+  display: flex;
+  gap: 2rem;
+}
+.nav-list_items {
+  list-style: none;
+}
+.list-items_links {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #000;
+  font-family: "Signika Negative", sans-serif;
+}
+
+.btn-sign_in {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: "Signika Negative", sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+.user {
+  width: 3rem;
+  height: 3rem;
+  background-color: darkblue;
+  border-radius: 50%;
+}
+.sign-in {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.2rem 0rem 0.2rem 2rem;
+  background-color: #00baf2;
+  border-radius: 5rem;
+}
+.sign-in:hover {
+  background-color: darkblue;
+}
+.sign-in:hover .user {
+  background-color: #00baf2;
+}
+.nav-secondary {
+  background: #f6f6f6;
+  height: 4.8rem;
+  text-align: center;
+  padding: 0.5rem 5rem 0.5rem 5rem;
+}
+
+.kyc {
+  font-size: 1.8rem;
+  color: #000;
+  font-family: "Signika Negative", sans-serif;
+}
+.kyc strong {
+  font-weight: 600;
+  margin-right: 0.2rem;
+}
+.learn-more {
+  margin-left: 0.2rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+}
+.header-primary {
+  background: #fff;
+}
+
+.logo-square {
+  width: 10rem;
+  height: 10rem;
+}
+.header-heading {
+  font-size: 4.2rem;
+  text-transform: capitalize;
+  font-weight: 800;
+  font-family: "Signika Negative", sans-serif;
+}
+.paytm-description {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: "Signika Negative", sans-serif;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.apple-logo {
+  width: 3rem;
+  height: 3rem;
+}
+.apple-logo path {
+  fill: #fff;
+}
+.playstore-logo {
+  width: 3rem;
+  height: 3rem;
+}
+.playstore-logo clippath {
+  fill: #fff;
+}
+.download-btn {
+  font-size: 1.6rem;
+  gap: 0.5rem;
+  padding: 1rem;
+  display: inline-flex;
+  align-items: center;
+  font-family: "Signika Negative", sans-serif;
+  color: #fff;
+  background-color: #000;
+  border: 0.22rem solid #000;
+  border-radius: 5rem;
+}
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4rem;
+  padding: 12.8rem 0 12rem;
+  margin-left: 10rem;
+  width: 42.1rem;
+}
+.download-btn:hover {
+  background: #fff;
+  color: #000;
+}
+.download-btn:hover .apple-logo path {
+  fill: #000;
+}
+.download-btn:hover .playstore-logo path {
+  fill: #000;
+}
+.paytm-mobile {
+  position: absolute;
+  right: 0;
+  top: 25rem;
+  width: 52.8rem;
+}
+.header-primary {
+  display: flex;
+  align-items: baseline;
+}
+
+.section-payment {
+  background: #00baf2;
+  padding: 5rem 10rem 5rem 10rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.heading-billing {
+  font-size: 4.2rem;
+  color: #fff;
+  font-weight: 900;
+  font-family: "Signika Negative", sans-serif;
+}
+.bil-image {
+  width: 8rem;
+  height: 8rem;
+}
+.bil-description {
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: "Signika Negative", sans-serif;
+  color: #fff;
+  width: 52%;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+.bil-description-primary {
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: "Signika Negative", sans-serif;
+  color: #fff;
+  width: 55%;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+.bil-description-secondary {
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: "Signika Negative", sans-serif;
+  color: #fff;
+  width: 70%;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+.biling-type {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* background: black; */
+  /* justify-content: space-between; */
+  height: 20rem;
+  border-radius: 1rem;
+  gap: 0.5rem;
+  width: 16rem;
+  padding: 16px 11px 16px 16px;
+}
+.biling-type:hover {
+  background: rgba(204, 204, 204, 0.497);
+}
+.biling-type-primary {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+.booking-section {
+  padding: 5rem 10rem 5rem 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  background: #0f4a8a;
+}
+
+.booking-images {
+  width: 8rem;
+  height: 8rem;
+}
+.booking-description {
+  font-size: 1.8rem;
+  font-weight: 800;
+  font-family: "Signika Negative", sans-serif;
+  color: #fff;
+  width: 70%;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+.heading-booking {
+  font-size: 4.2rem;
+  color: #fff;
+  font-weight: 900;
+  font-family: "Signika Negative", sans-serif;
+}
+.booking-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* background: black; */
+  /* justify-content: space-between; */
+  height: 18rem;
+  border-radius: 1rem;
+  gap: 0.5rem;
+  width: 14rem;
+  padding: 16px 11px 16px 16px;
+}
+.booking-div:hover {
+  background: rgba(204, 204, 204, 0.405);
+}
+.booking-primary {
+  display: flex;
+  align-items: flex-start;
+  gap: 4rem;
+}
+
+main {
+  background: #f5f7fa;
+  padding-top: 12rem;
+  margin: 0 auto;
+  padding-bottom: 10rem;
+}
+.heading-main {
+  font-size: 6.2rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+}
+.paytm-wallet {
+  padding: 10rem 4.8rem 10rem 4.8rem;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 110rem;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  border-radius: 3rem;
+}
+.wallet-logo {
+  width: 10rem;
+  height: 10rem;
+}
+.heading-wallet {
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: "Signika Negative", sans-serif;
+  text-transform: capitalize;
+}
+.paytm-wallet-logo {
+  display: flex;
+  align-items: center;
+  width: 20rem;
+  gap: 0.5rem;
+}
+.heading-primary {
+  font-size: 4.2rem;
+  font-weight: 700;
+}
+.paytm-wallet-primary {
+  width: 42.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5rem;
+}
+.wallet-description {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.wallet-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.wallet-mobile {
+  width: 53.9rem;
+}
+.learn-more-link {
+  text-decoration: none;
+  padding: 1.5rem;
+  background: #0f4a8a;
+  border-radius: 5rem;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  color: #fff;
+  font-weight: 600;
+  width: 15rem;
+  text-align: center;
+  transition: all 0.4s;
+}
+
+.learn-more-link:hover {
+  background: #00baf2;
+}
+.right-arrow {
+  width: 2rem;
+  display: none;
+  transition: all 0.4s;
+}
+.carret-right {
+  width: 2rem;
+  transition: all 0.4s;
+}
+.learn-more-link:hover .right-arrow {
+  display: block;
+  transition: all 0.4s;
+}
+
+.learn-more-link:hover .carret-right {
+  display: none;
+  transition: all 0.4s;
+}
+
+.paytm-hdfc,
+.paytm-sbi {
+  width: 15rem;
+}
+
+.paytm-sbi {
+  margin-top: 2rem;
+}
+.hdfc-heading,
+.sbi-heading {
+  font-size: 4.2rem;
+  font-weight: 600;
+}
+.hdfc-description,
+.sbi-description {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.hdfc-content,
+.sbi-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.hdfc-card,
+.sbi-card {
+  width: 40rem;
+}
+.hdfc-bank {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #fff;
+  width: 50rem;
+  gap: 1rem;
+  padding: 2rem;
+  border-radius: 3rem;
+}
+.sbi-bank {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #fff;
+  width: 50rem;
+  gap: 1rem;
+  padding: 3rem;
+  border-radius: 3rem;
+}
+
+.section-bank {
+  display: flex;
+  gap: 10rem;
+  margin: 0 auto;
+  align-items: flex-start;
+  justify-content: center;
+}
+.section-financial-content {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100rem;
+  gap: 5rem;
+  background: #fff;
+  padding: 5rem 10rem 5rem 10rem;
+}
+.financial-heading {
+  font-size: 6.2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.fiancial-logo {
+  width: 25rem;
+  height: 3rem;
+}
+
+.heading-payment-bank {
+  font-size: 3.2rem;
+  font-weight: 550;
+}
+.payment-description {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50rem;
+  gap: 3rem;
+}
+
+.learn-more-btn {
+  padding: 1.5rem 2rem 1.5rem 2rem;
+  background: #0f4a8a;
+  border-radius: 1rem;
+}
+
+.right-arrow-primary {
+  width: 3rem;
+  display: none;
+  transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.carret-right-primary {
+  width: 3rem;
+  transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.learn-more-btn {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  transition: all 0.4s;
+  width: 20rem;
+  justify-content: center;
+}
+.learn-more-btn:hover .right-arrow-primary {
+  display: block;
+  transition: all 0.4s;
+}
+
+.learn-more-btn:hover .carret-right-primary {
+  display: none;
+  transition: all 0.4s;
+}
+.learn-more-btn:hover:hover {
+  background: #00baf2;
+  transition: all 0.4s;
+}
+
+.section-financial-support {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  margin-top: 5rem;
+  justify-content: space-between;
+}
+
+.financial-mobile {
+  width: 50rem;
+}
+
+.paytm-money {
+  padding: 5rem 10rem 5rem 10rem;
+  background: url(/images/zig-zag-background.png);
+  background-color: rgba(204, 204, 204, 0.236);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  gap: 20rem;
+  align-items: center;
+}
+.paytm-money-mobile {
+  width: 50rem;
+}
+.paytm-money-logo {
+  width: 10rem;
+  height: auto;
+}
+.money-heading {
+  font-size: 4.2rem;
+  font-weight: 700;
+}
+.money-description {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.paytm-money-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.paytm-money-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3rem;
+  width: 42.1rem;
+}
+
+.section_paytm-insurance {
+  padding: 5rem 10rem 5rem 10rem;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20rem;
+}
+
+.insurance-logo {
+  width: 10rem;
+  height: auto;
+}
+.insurance-heading {
+  font-size: 4.2rem;
+  font-weight: 700;
+}
+.insurance-description {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.insurance-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.paytm-insurance-primary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3rem;
+  width: 42.1rem;
+}
+.insurance-mobile-image {
+  width: 50rem;
+  height: auto;
+}
+
+.personal-loan {
+  padding: 5rem 10rem 5rem 10rem;
+  background: rgba(204, 204, 204, 0.211);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20rem;
+}
+.personal-loan-mobile {
+  width: 50rem;
+  height: auto;
+}
+.personal-loan-logo {
+  width: 10rem;
+  height: auto;
+}
+.heading-perosnal {
+  font-size: 4.2rem;
+  font-weight: 700;
+}
+.personal-description {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.personal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.personal-loan-primary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3rem;
+  width: 42.1rem;
+}
+
+.section_business-services {
+  padding-top: 12rem;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 auto;
+}
+
+.heading-buisness-service {
+  font-size: 5.2rem;
+  font-weight: 700;
+  display: flex;
+  padding: 2rem;
+  margin-left: 20rem;
+  width: 70rem;
+  /* margin: 0 auto; */
+}
+.business-services-primary {
+  background: rgba(204, 204, 204, 0.211);
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 15rem;
+  width: 110rem;
+  height: 50rem;
+  border-radius: 2rem;
+  margin: 0 auto;
+}
+.business-primary-heading {
+  font-size: 3.2rem;
+  font-weight: 550;
+}
+.business-primary-description {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.business-services-primary-content {
+  display: flex;
+  padding: 3rem 1.5rem 3rem 1.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  width: 40rem;
+}
+.busines-primary-mobile {
+  width: 40rem;
+  padding-right: 0rem;
+}
+
+.section-sign-in {
+  background-color: #eee;
+  display: flex;
+  padding: 4rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 40rem;
+  margin: 0 auto;
+  width: 70%;
+  height: 80%;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+}
+
+.hidden {
+  display: none;
+}
+.close-button {
+  margin-left: 70%;
+  margin-top: -10rem;
+  margin-bottom: 10rem;
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 2.2rem;
+}
+.close-button-primary {
+  margin-left: 70%;
+  margin-top: -10rem;
+  margin-bottom: 10rem;
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 2.2rem;
+  color: #fff;
+}
+.name,
+.email-address,
+.password {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  font-size: 1.4rem;
+  border: none;
+  background: #fff;
+  width: 70%;
+  border-radius: 0.6rem;
+}
+.name:focus,
+.email-address:focus,
+.password:focus {
+  border: 0.2rem solid #00baf2;
+}
+input::-webkit-input-placeholder {
+  color: #999;
+}
+.button-create-account {
+  width: 60%;
+  text-align: center;
+  background: #00baf2;
+  color: #fff;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  box-shadow: 0.5rem 0.8rem 0.5rem rgba(0, 0, 0, 0.19);
+  border-radius: 4rem;
+  transition: all 0.2s;
+  outline: none;
+  border: none;
+}
+.button-create-account:active {
+  transform: translateY(3px);
+  transition: all 0.2s;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+.congratulation-to-join {
+  background: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 40rem;
+  margin: 0 auto;
+  width: 70%;
+  height: 80%;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+}
+.blue-tick {
+  width: 10rem;
+  clip-path: circle(40%);
+  background: #fff;
+}
+.account-made {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+}
+.overlay-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+.hidden-2 {
+  display: none;
+}
+
+.playstore-info-section {
+  background: #fff;
+  background-size: cover;
+  padding: 5rem;
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+  left: 50%;
+  top: 200rem;
+  transform: translate(-10%);
+}
+.list-paytm {
+  line-height: 1.8;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.list-paytm:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.playstore-info {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.8;
+}
+.close-button-second {
+  font-size: 1.8rem;
+  margin-left: 90%;
+  margin-bottom: 1rem;
+  border: none;
+  background: #fff;
+}
+.hidden-3 {
+  display: none;
+}
+.overlay-3 {
+  position: absolute;
+  top: 20rem;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+.animated-photo {
+  width: 50rem;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+}
+.gif {
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  height: auto;
+}
+.powered-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.heading-powered {
+  font-size: 3.2rem;
+  font-weight: 550;
+}
+.powered-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  font-weight: 400;
+}
+.powered-by-paytm {
+  background: rgba(204, 204, 204, 0.211);
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 15rem;
+  width: 110rem;
+  height: 50rem;
+  border-radius: 2rem;
+  margin: 0 auto;
+}
+.image-powered {
+  width: 50rem;
+}
+.section-buisness-tools {
+  padding-top: 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5rem;
+  margin-left: 15%;
+}
+.buisness-heading {
+  font-size: 4.2rem;
+  font-weight: 800;
+  width: 45rem;
+  line-height: 1.2;
+}
+.buisness-tools-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: flex-start;
+}
+.image-dashboard {
+  width: 25rem;
+}
+.heading-toold {
+  font-size: 3rem;
+  width: 20rem;
+}
+.tools-description {
+  font-size: 1.8rem;
+  width: 20rem;
+  line-height: 1.5;
+}
+.link-learn-more {
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+.link-learn-more:hover {
+  text-decoration: underline;
+  transition: all 0.4s;
+}
+.buisness-tool-flex {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 4rem;
+}
+.section-sliding-bars {
+  padding: 5rem 3rem 5rem 3rem;
+  margin-top: 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background: #00baf21b;
+}
+.sliding-bar-primary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  width: 30rem;
+}
+.sliding-bar-image {
+  width: 15rem;
+}
+.bar-description {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+.learn-more-bar {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #00baf2;
+}
+.sliding-bar-secondary {
+  display: flex;
+  width: 16rem;
+  height: 22rem;
+  gap: 1rem;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: #00baf2;
+  padding: 0.5rem 0rem 0.5rem 0rem;
+  border-radius: 0.5rem;
+}
+.secondary-images {
+  width: 15rem;
+}
+.heading-bar {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #fff;
+}
+.sliding-bar-secondary:hover .secondary-images {
+  transform: scale(1.05);
+  transition: all 0.4s;
+}
+.sliding-bar-types {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.bar-slider {
+  display: flex;
+  gap: 8rem;
+  height: 30rem;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  padding: 2rem 2rem 2rem 2rem;
+  border-radius: 1.5rem;
+}
+.animate-wallet,
+.animate-wallet-2 {
+  opacity: 0;
+}
+.animate-wallet.animated {
+  opacity: 1;
+}
+.animate-wallet-2.animated {
+  opacity: 1;
+}
+.animate-para {
+  display: none;
+}
+
+.footer-heading {
+  font-size: 3.2rem;
+  width: 50%;
+  line-height: 1.5;
+}
+.logoAppStore {
+  width: 20rem;
+  height: 10rem;
+}
+
+footer {
+  padding: 4rem 6rem;
+  display: flex;
+  gap: 3rem;
+  height: 30rem;
+  border-bottom: 10px solid #00baf2;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(153, 153, 153, 0.138);
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 56%;
+  }
+  .nav-list {
+    display: none;
+  }
+  .paytm-mobile {
+    position: none;
+  }
+  .header-primary {
+    display: flex;
+    flex-direction: column;
+  }
+  .paytm-wallet {
+    flex-direction: column;
+    display: flex;
+    gap: 5rem;
+  }
+}
